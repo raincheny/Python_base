@@ -25,3 +25,18 @@ total = [
     , 'item_four', 'item_five'
 ]
 print(total)
+
+# 使用%格式化字符串(较老的方法)
+name = "David"
+age = 40
+print("Name: %s, Age: %d" % (name, age))
+
+# 使用占位符
+name = "Alice"
+age = 30
+print("Name: {}, Age: {}".format(name, age))
+
+# 使用f-strings(Python3.6+)
+name = "Bob"
+age = 25
+print(f"Name: {name}, Age: {age}")
