@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 import keyword
 
-print('hello, world')
+# 空格、换行
+print('hello\n, wor\tld')
 print('The quick brown fox', 'jumps over', 'the lazy dog')
 print('300 + 200 =', 300 + 200)
 
